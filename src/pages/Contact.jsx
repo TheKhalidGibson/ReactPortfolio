@@ -13,6 +13,24 @@ export default function Contact() {
     console.log(formData);
   };
 
+ function validateEmail(email) {
+    const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(String(email).toLowerCase());
+  }
+
+  const handleFormSubmit = (e) => {
+    e.preventDefault();
+
+    if (!validateEmail(email) || !userName) {
+      setErrorMessage('Email is invalid');
+      return;
+    }
+    
+    
+
+    setEmail('');
+  };
+
   return (
     <main className="m-0 contact-page">
       <div className="mx-5 pt-5">
@@ -36,7 +54,7 @@ export default function Contact() {
 
           <div className="input-group mb-3">
             <input
-              type="text"
+              type="email"
               className="form-control"
               placeholder="Type Email Here"
               required
@@ -59,7 +77,7 @@ export default function Contact() {
             ></textarea>
           </div>
 
-          <button type="submit" className="btn btn-light btn-lg mt-3">
+          <button type="submit" className="btn btn-light btn-lg mt-3" onSubmit={handleFormSubmit}>
             Submit
           </button>
         </form>
