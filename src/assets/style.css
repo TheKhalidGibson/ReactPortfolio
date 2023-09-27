@@ -1,0 +1,37 @@
+.img:hover{
+
+  opacity: 50%;
+  
+}
+
+.links{
+
+background-color: #2E1760;
+
+} 
+
+.links:hover{
+
+opacity: 50%;
+
+}
+
+.info{
+
+background-color: #DFF3E4;
+
+}
+
+.info:hover{
+
+opacity: 50%;
+
+}
+
+.textLink:hover{
+
+/* background-color: #7180B9; */
+background-color: black;
+
+
+}
