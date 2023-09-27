@@ -59,7 +59,7 @@ export default function Contact() {
             ></textarea>
           </div>
 
-          <button type="submit" className="btn btn-light btn-lg mt-3 submitBtn">
+          <button type="submit" className="btn btn-light btn-lg mt-3" onSubmit={handleFormSubmit}>
             Submit
           </button>
         </form>
