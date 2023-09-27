@@ -8,23 +8,23 @@ export default function Portfolio() {
       deployed: " add heroku link",
     },
     {
-      title: "NBA Fantasy Team",
+      title: "Work Day Scheduler",
       description: "A collaboration project that ...",
-      image: "./assets/project2Dashboard.png",
+      image: "./assets/workDayScheduler.png",
       repo: "https://github.com/TheKhalidGibson/sports-forum",
       deployed: " add heroku link",
     },
     {
-      title: "NBA Fantasy Team",
+      title: "The Tech Blog",
       description: "A collaboration project that ...",
-      image: "./assets/project2Dashboard.png",
+      image: "./assets/techBlog.png",
       repo: "https://github.com/TheKhalidGibson/sports-forum",
       deployed: " add heroku link",
     },
     {
-      title: "NBA Fantasy Team",
+      title: "Note Taker",
       description: "A collaboration project that ...",
-      image: "./assets/project2Dashboard.png",
+      image: "./assets/noteTaker.png",
       repo: "https://github.com/TheKhalidGibson/sports-forum",
       deployed: " add heroku link",
     },
@@ -32,25 +32,26 @@ export default function Portfolio() {
 
   return (
     <>
-      {/* <main className="m-0 contact-page"> */}
+      <main className="m-0 contact-page">
 
-      <p className="text-center fs-2">Portfolio</p>
+      
         
-      <div className="container">
+      <div className="container pb-5 pt-2">
+        <p className="text-center fs-2">Portfolio</p>
         <div className="row g-2">
           {projects.map((project) => (
-            <div className="col-md-6 col-sm-12" key={project.title}>
-              <div className="card mb-0">
+            <div className="col-md-6 col-sm-12 " key={project.title}>
+              <div className="card view">
                 <img src={project.image} className="card-img-top" alt="..." />
                 <div className="card-body">
                   <h5 className="card-title">{project.title}</h5>
                   <p className="card-text">{project.description}</p>
                 </div>
                 <div className="card-body">
-                  <a href={project.repo} className="card-link">
-                    GitHub Repo
+                  <a href={project.repo} className="card-link text-black-50">
+                    GitHub Repository
                   </a>
-                  <a href={project.deployed} className="card-link">
+                  <a href={project.deployed} className="card-link text-black-50">
                     Demo App
                   </a>
                 </div>
@@ -61,7 +62,10 @@ export default function Portfolio() {
     
         </div>
       </div>
-      {/* </main> */}
+
+
+      
+      </main>
 
     </>
   );
