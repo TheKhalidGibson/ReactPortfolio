@@ -18,7 +18,16 @@ background-color: #7180B9;
 
 .form-control{
 
-color: bisque;
+background-color: #DFF3E4;
+color: black;
 
 }
+
+.submitBtn{
+
+  background-color: #DFF3E4;
+
+
+}
+
 
