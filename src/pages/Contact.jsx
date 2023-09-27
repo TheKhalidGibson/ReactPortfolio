@@ -36,7 +36,7 @@ export default function Contact() {
 
           <div className="input-group mb-3">
             <input
-              type="text"
+              type="email"
               className="form-control"
               placeholder="Type Email Here"
               required
@@ -59,7 +59,7 @@ export default function Contact() {
             ></textarea>
           </div>
 
-          <button type="submit" className="btn btn-light btn-lg mt-3">
+          <button type="submit" className="btn btn-light btn-lg mt-3 submitBtn">
             Submit
           </button>
         </form>
