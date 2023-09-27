@@ -1,29 +1,67 @@
 export default function Portfolio() {
+  const projects = [
+    {
+      title: "NBA Fantasy Team",
+      description: "A collaboration project that ...",
+      image: "./assets/project2Dashboard.png",
+      repo: "https://github.com/TheKhalidGibson/sports-forum",
+      deployed: " add heroku link",
+    },
+    {
+      title: "NBA Fantasy Team",
+      description: "A collaboration project that ...",
+      image: "./assets/project2Dashboard.png",
+      repo: "https://github.com/TheKhalidGibson/sports-forum",
+      deployed: " add heroku link",
+    },
+    {
+      title: "NBA Fantasy Team",
+      description: "A collaboration project that ...",
+      image: "./assets/project2Dashboard.png",
+      repo: "https://github.com/TheKhalidGibson/sports-forum",
+      deployed: " add heroku link",
+    },
+    {
+      title: "NBA Fantasy Team",
+      description: "A collaboration project that ...",
+      image: "./assets/project2Dashboard.png",
+      repo: "https://github.com/TheKhalidGibson/sports-forum",
+      deployed: " add heroku link",
+    },
+  ];
+
   return (
-
     <>
-    <p class="text-center mt-2 fs-2">Portfolio</p>
+      {/* <main className="m-0 contact-page"> */}
 
-      <div class="container mt-4 mb-5">
-        <div class="row g-2">
-          <div class="col-6">
+      <p className="text-center fs-2">Portfolio</p>
+        
+      <div className="container">
+        <div className="row g-2">
+          {projects.map((project) => (
+            <div className="col-md-6 col-sm-12" key={project.title}>
+              <div className="card mb-0">
+                <img src={project.image} className="card-img-top" alt="..." />
+                <div className="card-body">
+                  <h5 className="card-title">{project.title}</h5>
+                  <p className="card-text">{project.description}</p>
+                </div>
+                <div className="card-body">
+                  <a href={project.repo} className="card-link">
+                    GitHub Repo
+                  </a>
+                  <a href={project.deployed} className="card-link">
+                    Demo App
+                  </a>
+                </div>
+              </div>
+            </div>
+          ))}
 
-            <div class="p-3 border bg-light"><img src="./assets/project2Dashboard.png" class="Photo w-100" /></div>
-          </div>
-          <div class="col-6">
-
-            <div class="p-3 border bg-light"><img src="./assets/workDayScheduler.png" class="Photo w-100" /></div>
-          </div>
-          <div class="col-6">
-
-            <div class="p-3 border bg-light"><img src="./assets/techBlog.png" class="Photo w-100" /></div>
-          </div>
-          <div class="col-6">
-
-            <div class="p-3 border bg-light"><img src="./assets/noteTaker.png" class="Photo w-100" /></div>
-          </div>
+    
         </div>
       </div>
+      {/* </main> */}
 
     </>
   );
