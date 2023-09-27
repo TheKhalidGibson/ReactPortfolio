@@ -1,6 +1,8 @@
-import '../assets/style.css'
+ import '../assets/style.css'
 
 export default function Portfolio() {
+ 
+
   const projects = [
     {
       title: "NBA Fantasy Team",
@@ -44,16 +46,16 @@ export default function Portfolio() {
           {projects.map((project) => (
             <div className="col-md-6 col-sm-12 " key={project.title}>
               <div className="card view">
-                <img src={project.image} className="card-img-top" alt="..." />
-                <div className="card-body">
+                <img src={project.image} className="card-img-top img" alt="..." />
+                <div className="card-body info">
                   <h5 className="card-title">{project.title}</h5>
                   <p className="card-text">{project.description}</p>
                 </div>
-                <div className="card-body">
-                  <a href={project.repo} className="card-link text-black-50">
+                <div className="card-body links"> 
+                  <a href={project.repo} className="card-link text-white-50 textLink">
                     GitHub Repository
                   </a>
-                  <a href={project.deployed} className="card-link text-black-50">
+                  <a href={project.deployed} className="card-link text-white-50 textLink">
                     Demo App
                   </a>
                 </div>

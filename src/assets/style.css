@@ -1,8 +1,8 @@
 .img:hover{
 
-  opacity: 50%;
-  
-}
+    opacity: 50%;
+    
+  }
 
 .links{
 
@@ -12,7 +12,8 @@ background-color: #2E1760;
 
 .links:hover{
 
-opacity: 50%;
+opacity: 60%;
+
 
 }
 
@@ -24,14 +25,15 @@ background-color: #DFF3E4;
 
 .info:hover{
 
-opacity: 50%;
+  opacity: 50%;
 
 }
 
 .textLink:hover{
 
-/* background-color: #7180B9; */
-background-color: black;
-
+  /* background-color: #7180B9; */
+  background-color: black;
+ 
 
 }
+  
