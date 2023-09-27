@@ -7,12 +7,12 @@ function NavTabs() {
 
   return (
     <>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-light px-2">
-        <div class="container-fluid">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark text-light px-2">
+        <div className="container-fluid">
         
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
+          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul className="navbar-nav me-auto  mb-lg-0">
+              <li className="nav-item">
               <Link
             to="/"
             // This is a conditional (ternary) operator that checks to see if the current page is "About"
@@ -22,7 +22,7 @@ function NavTabs() {
             About Me
           </Link>
               </li>
-              <li class="nav-item">
+              <li className="nav-item">
                 <Link
                   to="/Portfolio"
                   // Check to see if the currentPage is `Portfolio`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
@@ -31,7 +31,7 @@ function NavTabs() {
                   Portfolio
                 </Link>
               </li>
-              <li class="nav-item">
+              <li className="nav-item">
                 <Link
                   to="/Resume"
                   // Check to see if the currentPage is `Resume`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
@@ -40,7 +40,7 @@ function NavTabs() {
                   Resume
                 </Link>
               </li>
-              <li class="nav-item">
+              <li className="nav-item">
                 <Link
                   to="/Contact"
                   // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
@@ -50,8 +50,8 @@ function NavTabs() {
                 </Link>
 
               </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Full Stack Developer</a>
+              <li className="nav-item">
+                <a className="nav-link disabled">Full Stack Developer</a>
               </li>
             </ul>
           </div>
