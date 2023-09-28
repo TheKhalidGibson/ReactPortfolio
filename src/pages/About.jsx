@@ -5,7 +5,7 @@ export default function About() {
     <main className="m-0 contact-page">
 
 
-    <div className="row">
+<div className="mx-5 pt-5">
 
       
 <div>

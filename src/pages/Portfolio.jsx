@@ -29,7 +29,7 @@ export default function Portfolio() {
       title: "Note Taker",
       description: "A collaboration project that ...",
       image: "./assets/noteTaker.png",
-      repo: "https://github.com/TheKhalidGibson/sports-forum",
+      repo: "https://github.com/TheKhalidGibson/NoteTaker",
       deployed: "https://note-taker-kg-0f7b13148203.herokuapp.com/",
     },
   ];
