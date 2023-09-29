@@ -9,7 +9,7 @@ export default function About() {
 
       
 <div>
-      <img src="./assets/profilePic3.jpg" className="rounded mx-5 mb-3 mx-auto d-block pt-5" width="304" height="304" alt="..."/>
+      <img src="./assets/profilePic3.jpg" className="rounded mx-5 mb-3 mx-auto d-block pt-5" width="304" height="460" alt="..."/>
 </div>
 <h1 className="text-center pb-5 pt-3">About Me</h1>
 <br />
