@@ -1,4 +1,5 @@
 import { Link, useLocation } from 'react-router-dom';
+import '../assets/style.css'
 
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
@@ -7,11 +8,11 @@ function NavTabs() {
 
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark text-light px-2">
+      <nav className="navbar navbar-expand-lg justify-content-center navbar-dark bg-dark text-light px-2">
         <div className="container-fluid">
         
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav me-auto  mb-lg-0">
+            <ul className="navbar-nav me-auto mb-lg-0">
               <li className="nav-item">
               <Link
             to="/"
