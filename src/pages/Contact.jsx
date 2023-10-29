@@ -34,7 +34,7 @@ export default function Contact() {
   return (
     <main className="m-0 contact-page">
       <div className="mx-5 pt-5">
-        <p className="text-center fs-2">Stay in Touch</p>
+        <p className="text-center fs-2 pb-5">Stay in Touch</p>
         <form>
           <h5>Name:</h5>
 
