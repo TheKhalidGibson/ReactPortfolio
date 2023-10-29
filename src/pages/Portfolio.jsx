@@ -36,7 +36,7 @@ export default function Portfolio() {
 
   return (
     <>
-      <main className="m-0 contact-page">
+      <main className="m-0 portfolio-page">
 
       
         
@@ -44,9 +44,9 @@ export default function Portfolio() {
         <p className="text-center fs-2">Portfolio</p>
         <div className="row g-2">
           {projects.map((project) => (
-            <div className="col-md-6 col-sm-12 " key={project.title}>
+            <div className="col-md-6 col-sm-12" key={project.title}>
               <div className="card view">
-                <img src={project.image} className="card-img-top img" alt="..." />
+                <img src={project.image} className="card-img-top img" alt="..."  />
                 <div className="card-body info">
                   <h5 className="card-title">{project.title}</h5>
                   <p className="card-text">{project.description}</p>
