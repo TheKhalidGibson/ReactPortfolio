@@ -1,18 +1,19 @@
 .img:hover{
 
-    opacity: 50%;
+    border-radius: 1%;
     
   }
 
 .links{
 
-background-color: #293241;
+background-color: #355691;
+height: 70px;
 
 } 
 
 .links:hover{
 
-opacity: 60%;
+opacity: 96%;
 
 
 }
@@ -28,6 +29,29 @@ opacity: 60%;
 	animation: float 6s ease-in-out infinite;
 }
 
+.resume-header{
+
+	font-family:  'Alumni Sans Collegiate One', sans-serif;
+	font-weight: 900;
+	color: #E0FBFC;
+
+}
+
+.nav-item{
+
+	font-family:  'Alumni Sans Collegiate One', sans-serif;
+	font-weight: 900;
+	color: #E0FBFC;
+
+
+}
+
+.resume-skills{
+
+	border: #293241;
+
+}
+
 .about-me-header{
   display : flex;
   flex-direction : column;
@@ -39,6 +63,26 @@ opacity: 60%;
 
 	box-sizing: border-box;
 	border: 5px white solid;
+	overflow: hidden;
+	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+	transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+
+}
+
+.portfolio-content{
+  display : flex;
+  flex-direction : column;
+  align-items : center;
+  justify-content : center;
+  background-color: #293241;
+  color: #E0FBFC;
+  padding: 35px;
+  
+
+	box-sizing: border-box;
+	border: 5px;
+	border-radius: 3%;
 	overflow: hidden;
 	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
 	transform: translatey(0px);
@@ -76,20 +120,38 @@ align-items: center;
 
 .info{
 
-background-color: #7180B9;
+	background-color: #63A375;
+	font-family:  'Alumni Sans Collegiate One', sans-serif;
+	font-weight: 900;
+	color: #E0FBFC;
 
+}
+
+.entire-card{
+
+	height: 500px;
 }
 
 .info:hover{
 
-  opacity: 50%;
+  border-radius: 1%;
 
 }
 
+.textLink{
+
+	font-family:  'Alumni Sans Collegiate One', sans-serif;
+	font-weight: 900;
+	color: #E0FBFC;
+	text-decoration: none;
+ 
+
+}
 .textLink:hover{
 
   /* background-color: #7180B9; */
-  background-color: black;
+  background-color: #293241;
+  
  
 
 }
@@ -98,6 +160,10 @@ ul {
   list-style-type: none;
 }
 
+.card-img-top{
+
+	height: 300px;
+}
   
 @keyframes float {
 	0% {
@@ -123,28 +189,6 @@ ul {
 	align-items: center;
 }
 
-/* .avatar {
-	width: 150px;
-	height: 150px;
-	box-sizing: border-box;
-	border: 5px white solid;
-	border-radius: 50%;
-	overflow: hidden;
-	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-	transform: translatey(0px);
-	animation: float 6s ease-in-out infinite;
-	img { width: 100%; height: auto; }
-} */
 
 
-/* .sepia img {
-	-webkit-filter: sepia(100%);
-	filter: sepia(100%);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
-.sepia:hover img {
-	-webkit-filter: sepia(0);
-	filter: sepia(0);
-} */
 
