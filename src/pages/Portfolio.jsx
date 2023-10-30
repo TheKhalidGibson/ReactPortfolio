@@ -32,6 +32,20 @@ export default function Portfolio() {
       repo: "https://github.com/TheKhalidGibson/NoteTaker",
       deployed: "https://note-taker-kg-0f7b13148203.herokuapp.com/",
     },
+    {
+      title: "Note Taker",
+      description: "A collaboration project that ...",
+      image: "./assets/noteTaker.png",
+      repo: "https://github.com/TheKhalidGibson/NoteTaker",
+      deployed: "https://note-taker-kg-0f7b13148203.herokuapp.com/",
+    },
+    {
+      title: "Note Taker",
+      description: "A collaboration project that ...",
+      image: "./assets/noteTaker.png",
+      repo: "https://github.com/TheKhalidGibson/NoteTaker",
+      deployed: "https://note-taker-kg-0f7b13148203.herokuapp.com/",
+    },
   ];
 
   return (
@@ -40,13 +54,13 @@ export default function Portfolio() {
 
       
         
-      <div className="container pb-5 pt-2">
-        <p className="text-center fs-2">Portfolio</p>
+      <div className="container pb-5 pt-2 portfolio-content border border-light border-3">
+        <p className="text-center fs-2">My Work</p>
         <div className="row g-2">
           {projects.map((project) => (
-            <div className="col-md-6 col-sm-12" key={project.title}>
+            <div className="col-md-6 col-sm-12 entire-card px-3 pt-4" key={project.title}>
               <div className="card view">
-                <img src={project.image} className="card-img-top img" alt="..."  />
+                <img src={project.image} className="card-img-top img placeholder-glow" alt="..." />
                 <div className="card-body info">
                   <h5 className="card-title">{project.title}</h5>
                   <p className="card-text">{project.description}</p>
