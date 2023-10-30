@@ -1,33 +1,4 @@
 import "../assets/style.css";
-
-// export default function About() {
-//   return (
-
-//     <main className="m-0 contact-page">
-
-// <div className="mx-5 pt-5">
-
-// <div>
-//       <img src="./assets/profilePic3.jpg" className="rounded mx-5 mb-3 mx-auto d-block pt-5" width="150" height="auto" alt="..."/>
-// </div>
-// <h1 className="text-center pb-5 pt-3">About Me</h1>
-// <br />
-//   <div>
-//       <p className="mx-5">
-//       I am a Full-Stack Developer who is currently learning how to enter into the industry by seeking education and repetition in the craft. The University of Penn LPS BootCamp is that education for me and although I am currently a student, I have great confidence in my progression so far and look forward to what the future will hold.
-//       </p>
-//   </div>
-
-// </div>
-
-// <form className="py-5 mx-auto text-center">
-// <a href="https://github.com/TheKhalidGibson"><button type="button" className="btn btn-primary btn-lg submitBtn">My GitHub Profile</button></a>
-
-// </form>
-// </main>
-//   );
-// }
-
 import React from "react";
 import {
   MDBCol,
@@ -91,6 +62,7 @@ export default function PersonalProfile() {
                           Pennsylvania LPS Coding BootCamp so I am skilled in
                           both Front and Back-End Technologies
                         </MDBCardText>
+                          <MDBIcon fas icon="user-graduate" className="about-me-header"/>
                       {/* </MDBCol>                      */}
                     </MDBRow>
 
@@ -103,48 +75,55 @@ export default function PersonalProfile() {
 
                         {/* <MDBCardText className="">My Technological Journey Through Coding</MDBCardText> */}
                         <MDBContainer className="">
+                          
                           <img
                             src="./assets/API.jpg"
                             className="rounded-3"
-                            style={{ width: "75px" }}
+                            style={{ width: "85px" }}
                             alt="Avatar"
                           />
+                          <hr className="mt-0 mb-4" />
                           <img
                             src="./assets/css.jpg"
                             className="rounded-3"
-                            style={{ width: "75px" }}
+                            style={{ width: "85px" }}
                             alt="Avatar"
                           />
+                          <hr className="mt-0 mb-4" />
                           <img
                             src="./assets/html.jpg"
                             className="rounded-3"
-                            style={{ width: "75px" }}
+                            style={{ width: "85px" }}
                             alt="Avatar"
                           />
+                          <hr className="mt-0 mb-4" />
                           <img
                             src="./assets/Js.jpg"
                             className="rounded-3"
-                            style={{ width: "75px" }}
+                            style={{ width: "85px" }}
                             alt="Avatar"
                           />
                         </MDBContainer>
                       </MDBCol>
-                      <MDBCol size="6" className="mb-3 text-center">
+                      <MDBCol size="6" className="mb-3  text-center">
                         <MDBTypography tag="h4">
                           Temperature Check?
                         </MDBTypography>
                         <MDBContainer className="temperature-badge">
-                          <MDBBadge color="success" pill>
-                            Active
+                          <MDBBadge color="warning" pill>
+                            Mild Levels (.. Still .. Marinating)
                           </MDBBadge>
-                          <MDBBadge color="primary" pill>
-                            Onboarding
+                          <hr className="mt-0 mb-4" />
+                          <MDBBadge color="danger" pill>
+                           Hot Skillz
                           </MDBBadge>
-                          <MDBBadge color="success" pill>
-                            Active
+                          <hr className="mt-0 mb-4" />
+                          <MDBBadge color="danger" pill>
+                          Hot Skillz
                           </MDBBadge>
-                          <MDBBadge color="primary" pill>
-                            Onboarding
+                          <hr className="mt-0 mb-4" />
+                          <MDBBadge color="warning" pill>
+                           Medium/Mild Levels (.. Still .. Marinating)
                           </MDBBadge>
                         </MDBContainer>
                       </MDBCol>
