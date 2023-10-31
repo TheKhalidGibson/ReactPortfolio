@@ -43,42 +43,36 @@ export default function Resume() {
 
       </ul> */}
 
-<MDBCarousel showIndicators showControls fade>
+<MDBCarousel  showControls fade>
       <MDBCarouselItem
-        className='w-100 d-block'
+        className='w-100 d-block carousel-img'
         itemId={1}
-        src='https://mdbootstrap.com/img/Photos/Slides/img%20(15).jpg'
+        src='../assets/Coolor1.png'
         alt='...'
       >
-        <h5>First slide label</h5>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
       </MDBCarouselItem>
 
       <MDBCarouselItem
-        className='w-100 d-block'
+        className='w-100 d-block carousel-img'
         itemId={2}
-        src='https://mdbootstrap.com/img/Photos/Slides/img%20(22).jpg'
+        src='../assets/Coolor2.png'
         alt='...'
       >
-        <h5>Second slide label</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       </MDBCarouselItem>
 
       <MDBCarouselItem
-        className='w-100 d-block'
+        className='w-100 d-block carousel-img'
         itemId={3}
-        src='https://mdbootstrap.com/img/Photos/Slides/img%20(23).jpg'
+        src='../assets/Coolor3.png'
         alt='...'
       >
-        <h5>Third slide label</h5>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
       </MDBCarouselItem>
     </MDBCarousel>
 
     </div>
-      {/* <form className="mx-5 pl-5 my-5 text-center">
+       <form className="mx-5 pl-5 my-5 text-center">
       <a href="https://drive.google.com/file/d/1jnYPy2KIDOJShawuX3C8zUf4x3Ined8i/view?usp=drive_link" class="card-link"><button type="button" className="btn btn-primary btn-lg submitBtn">My Resume Link</button></a>
-      </form> */}
+      </form> 
 
     </main>
   );
