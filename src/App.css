@@ -25,8 +25,8 @@ height: max-content;
 
 .form-control{
 
-background-color: #a1b9c3;
-color: #E0FBFC;
+background-color: #E0FBFC;
+color: #171738;
 font-family:  'Alumni Sans Collegiate One', sans-serif;
 
 
@@ -34,7 +34,7 @@ font-family:  'Alumni Sans Collegiate One', sans-serif;
 
 .contact-submit-btn{
 
-  background-color: #a1b9c3;
+  background-color: #E0FBFC;
 	color: #293241;
   font-family:  'Alumni Sans Collegiate One', sans-serif;
   font-weight: 500;

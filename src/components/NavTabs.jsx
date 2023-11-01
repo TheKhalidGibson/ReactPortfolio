@@ -5,8 +5,11 @@ import {
   MDBRow,
   MDBCol,
   MDBIcon,
+  // FontAwesomeIcon,
 } from "mdb-react-ui-kit";
 import "../assets/style.css";
+
+
 
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
@@ -71,6 +74,31 @@ function NavTabs() {
               </li>
             </ul>
           </div>
+        </div>
+      </nav>
+
+      <nav className="navbar footer fixed-bottom navbar-expand-lg justify-content-center text-center navbar-dark bg-dark text-light">
+        <div className="pl-5">
+
+          <a
+            href="https://www.linkedin.com/in/khalid-gibson-85799b257/"
+            className="card-link mx-5 text-white-50 textLink"
+          >
+            iN
+          </a>
+          <a
+            href="https://twitter.com/KhalidGibson"
+            className="card-link mx-5 text-white-50 textLink"
+          >
+            X
+          </a>
+          <a
+            href="https://github.com/TheKhalidGibson"
+            className="card-link mx-5 text-white-50 textLink"
+          >
+            GitHub
+          </a>
+            {/* <FontAwesomeIcon icon="fa-brands fa-github" /> */}
         </div>
       </nav>
     </>
