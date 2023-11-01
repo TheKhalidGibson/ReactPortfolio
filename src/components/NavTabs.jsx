@@ -31,15 +31,28 @@ function NavTabs() {
                     currentPage === "/" ? "nav-link active" : "nav-link"
                   }
                 >
+                  Home
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  to="/About"
+                  // Check to see if the currentPage is `Portfolio`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+                  className={
+                    currentPage === "/About"
+                      ? "nav-link active"
+                      : "nav-link"
+                  }
+                >
                   About Me
                 </Link>
               </li>
               <li className="nav-item">
                 <Link
-                  to="/Portfolio"
+                  to="/Projects"
                   // Check to see if the currentPage is `Portfolio`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
                   className={
-                    currentPage === "/Portfolio"
+                    currentPage === "/Projects"
                       ? "nav-link active"
                       : "nav-link"
                   }
@@ -49,13 +62,13 @@ function NavTabs() {
               </li>
               <li className="nav-item">
                 <Link
-                  to="/Resume"
-                  // Check to see if the currentPage is `Resume`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+                  to="/Skills"
+                  // Check to see if the currentPage is `Skills`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
                   className={
-                    currentPage === "/Resume" ? "nav-link active" : "nav-link"
+                    currentPage === "/Skills" ? "nav-link active" : "nav-link"
                   }
                 >
-                  Resume
+                  Skills
                 </Link>
               </li>
               <li className="nav-item">
@@ -77,26 +90,26 @@ function NavTabs() {
         </div>
       </nav>
 
-      <nav className="navbar footer fixed-bottom navbar-expand-lg justify-content-center text-center navbar-dark bg-dark text-light">
+      <nav className="navbar footer fixed-bottom navbar-expand-lg justify-content-end text-center navbar-dark bg-dark text-light">
         <div className="pl-5">
 
           <a
             href="https://www.linkedin.com/in/khalid-gibson-85799b257/"
             className="card-link mx-5 text-white-50 textLink"
           >
-            iN
-          </a>
-          <a
-            href="https://twitter.com/KhalidGibson"
-            className="card-link mx-5 text-white-50 textLink"
-          >
-            X
+            in
           </a>
           <a
             href="https://github.com/TheKhalidGibson"
             className="card-link mx-5 text-white-50 textLink"
           >
             GitHub
+          </a>
+          <a
+            href="https://twitter.com/KhalidGibson"
+            className="card-link mx-5 text-white-50 textLink"
+          >
+            X
           </a>
             {/* <FontAwesomeIcon icon="fa-brands fa-github" /> */}
         </div>
