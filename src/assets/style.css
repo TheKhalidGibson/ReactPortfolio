@@ -115,6 +115,7 @@ opacity: 96%;
 
 .footer{
 	height: 65px;
+	/* background-color: #E0FBFC; */
 	/* color: #E0FBFC; */
 }
 
@@ -123,11 +124,15 @@ opacity: 96%;
 	
 }
 
-/* .submitBtn{
+.submitBtn{
 
 align-items: center;
+color: #E0FBFC;
+background-color: #63A375;
+border: #355691;
 
-} */
+
+}
 
 .info{
 
