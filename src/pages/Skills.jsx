@@ -23,7 +23,7 @@ export default function Resume() {
     <main className="m-0 contact-page">
 
 
-    <h1 className="pb-5 pt-3 resume-header text-center">Resume</h1>
+    <h1 className="pb-5 pt-3 resume-header text-center">Skills</h1>
 <div className=" pb-5 mx-3 mb-5 pl-5">
       {/* <ul className="pb-5" >
         <h5>Coding Experience</h5>
