@@ -9,8 +9,9 @@ import App from './App';
 import Error from './pages/Error';
 import About from './pages/About';
 import Contact from './pages/Contact';
-import Portfolio from './pages/Portfolio';
-import Resume from './pages/Resume';
+import Projects from './pages/Projects';
+import Skills from './pages/Skills';
+import Home from './pages/Home';
 
 // Define the accessible routes, and which components respond to which URL
 const router = createBrowserRouter([
@@ -21,19 +22,23 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <About />,
+        element: <Home />,
       },
       {
-        path: '/Portfolio',
-        element: <Portfolio />,
+        path: '/Projects',
+        element: <Projects />,
       },
       {
-        path: '/Resume',
-        element: <Resume />,
+        path: '/Skills',
+        element: <Skills />,
       },
       {
         path: '/Contact',
         element: <Contact />,
+      },
+      {
+        path: '/About',
+        element: <About />,
       },
     ],
   },
