@@ -20,7 +20,8 @@ opacity: 96%;
 
 .carousel-img{
 
-	height: 450px;
+	height: 375px;
+	align-items: center;
 	
 }
 
@@ -58,11 +59,20 @@ opacity: 96%;
 
 }
 
+.home-message{
+
+	font-family:  'Titan One';
+	font-weight: 900;
+	color: #E0FBFC;
+
+}
+
 .about-me-header{
   display : flex;
   flex-direction : column;
   align-items : center;
   justify-content : center;
+  /* background-image: "../assets/reactStars1.jpg"; */
   background-color: #7180B9;
   color: #E0FBFC;
 
