@@ -43,7 +43,7 @@ export default function Resume() {
 
       </ul> */}
 
-<MDBCarousel className=""  showControls fade>
+<MDBCarousel className=""  data-interval="9000" showControls fade>
       <MDBCarouselItem
         className='w-30 d-block mx-auto carousel-img rounded-pill'
         itemId={1}
