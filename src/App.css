@@ -15,18 +15,37 @@ height: 140vh;
 background-color: #7180B9;
 
 }
+.portfolio-page{
 
-.form-control{
-
-background-color: #DFF3E4;
-color: black;
+background-color: #7180B9;
+height: max-content;
 
 }
 
-.submitBtn{
 
-  background-color: #DFF3E4;
-  color: #171738;
+.form-control{
+
+background-color: #E0FBFC;
+color: #171738;
+font-family:  'Alumni Sans Collegiate One', sans-serif;
+
+
+}
+
+.contact-submit-btn{
+
+  background-color: #E0FBFC;
+	color: #293241;
+  font-family:  'Alumni Sans Collegiate One', sans-serif;
+  font-weight: 500;
+
+
+}
+.contact-submit-btn:hover{
+
+opacity: 35%;
+color: #E0FBFC;
+
 
 }
 

@@ -1,5 +1,18 @@
-import { useState } from "react";
+import "../assets/style.css";
 
+import { useState } from "react";
+import {
+  MDBCol,
+  MDBContainer,
+  MDBRow,
+  MDBBadge,
+  MDBCard,
+  MDBCardText,
+  MDBCardBody,
+  MDBCardImage,
+  MDBTypography,
+  MDBIcon,
+} from "mdb-react-ui-kit";
 export default function Contact() {
   const [formData, setFormData] = useState({
     name: "",
@@ -13,8 +26,9 @@ export default function Contact() {
     console.log(formData);
   };
 
- function validateEmail(email) {
-    const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+  function validateEmail(email) {
+    const re =
+      /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     return re.test(String(email).toLowerCase());
   }
 
@@ -22,20 +36,22 @@ export default function Contact() {
     e.preventDefault();
 
     if (!validateEmail(email) || !userName) {
-      setErrorMessage('Email is invalid');
+      setErrorMessage("Email is invalid");
       return;
     }
-    
-    
 
-    setEmail('');
+    setEmail("");
   };
 
   return (
     <main className="m-0 contact-page">
       <div className="mx-5 pt-5">
-        <p className="text-center fs-2">Stay in Touch</p>
-        <form>
+        <p className="text-center fs-2 pb-5 resume-header wrapper">Stay in Touch</p>
+    
+        <MDBCard
+          className="mx-5 px-5 py-5"
+          style={{ backgroundColor: "#293241", color: "#E0FBFC" }}
+        >
           <h5>Name:</h5>
 
           <div className="input-group mb-3">
@@ -77,10 +93,17 @@ export default function Contact() {
             ></textarea>
           </div>
 
-          <button type="submit" className="btn btn-light btn-lg mt-3 submitBtn" onSubmit={handleFormSubmit}>
+          <button
+            type="submit"
+            className="btn btn-light btn-lg mt-3 contact-submit-btn"
+            onSubmit={handleFormSubmit}
+            disabled={!(formData.name && formData.email && formData.message)}
+
+          >
             Submit
           </button>
-        </form>
+          {/* <button className="btn draw-border">Draw Border</button> */}
+        </MDBCard>
       </div>
     </main>
   );

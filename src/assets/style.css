@@ -1,39 +1,220 @@
 .img:hover{
 
-    opacity: 50%;
+    border-radius: 1%;
     
   }
 
 .links{
 
-background-color: #2E1760;
+background-color: #355691;
+height: 70px;
 
 } 
 
 .links:hover{
 
-opacity: 60%;
+opacity: 96%;
+
+
+}
+
+.carousel-img{
+
+	height: 375px;
+	align-items: center;
+	
+}
+
+.profile-pic{
+
+  size: 5%;
+  box-sizing: border-box;
+	border: 5px white solid;
+	overflow: hidden;
+	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+	transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+}
+
+.resume-header{
+
+	font-family:  'Alumni Sans Collegiate One', sans-serif;
+	font-weight: 900;
+	color: #E0FBFC;
+
+}
+
+.nav-item{
+
+	font-family:  'Alumni Sans Collegiate One', sans-serif;
+	font-weight: 900;
+	color: #E0FBFC;
+
+
+}
+
+.resume-skills{
+
+	border: #293241;
+
+}
+
+.home-message{
+
+	font-family:  'Titan One';
+	font-weight: 900;
+	color: #E0FBFC;
+
+}
+
+.about-me-header{
+  display : flex;
+  flex-direction : column;
+  align-items : center;
+  justify-content : center;
+  /* background-image: "../assets/reactStars1.jpg"; */
+  background-color: #7180B9;
+  color: #E0FBFC;
+
+
+	box-sizing: border-box;
+	border: 5px white solid;
+	overflow: hidden;
+	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+	transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+
+}
+
+.portfolio-content{
+  display : flex;
+  flex-direction : column;
+  align-items : center;
+  justify-content : center;
+  background-color: #293241;
+  color: #E0FBFC;
+  padding: 35px;
+  
+
+	box-sizing: border-box;
+	border: 5px;
+	border-radius: 3%;
+	overflow: hidden;
+	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+	transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+
+}
+
+.temperature-badge{
+
+	padding-bottom: 5px;
+}
+
+.card-body-all{
+
+  color: #E0FBFC;
+
+
+}
+
+.navbar{
+	height: 100px;
+	/* color: #E0FBFC; */
+}
+
+.footer{
+	height: 65px;
+	/* background-color: #E0FBFC; */
+	/* color: #E0FBFC; */
+}
+
+#navbarSupportedContent {
+	align-items: center;
+	
+}
+
+.submitBtn{
+
+align-items: center;
+color: #E0FBFC;
+background-color: #63A375;
+border: #355691;
 
 
 }
 
 .info{
 
-background-color: #DFF3E4;
+	background-color: #63A375;
+	font-family:  'Alumni Sans Collegiate One', sans-serif;
+	font-weight: 900;
+	color: #E0FBFC;
 
+}
+
+.entire-card{
+
+	height: 500px;
 }
 
 .info:hover{
 
-  opacity: 50%;
+  border-radius: 1%;
 
 }
 
-.textLink:hover{
+.textLink{
 
-  /* background-color: #7180B9; */
-  background-color: black;
+	font-family:  'Alumni Sans Collegiate One', sans-serif;
+	font-weight: 900;
+	color: #E0FBFC;
+	text-decoration: none;
  
 
 }
+.textLink:hover{
+
+  /* background-color: #7180B9; */
+  background-color: #293241;
   
+ 
+
+}
+
+ul {
+  list-style-type: none;
+}
+
+.card-img-top{
+
+	height: 300px;
+}
+  
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+

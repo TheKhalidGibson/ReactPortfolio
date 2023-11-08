@@ -140,7 +140,7 @@ I know that "good" design is subjective; however, my objective and intention was
 The following has been placed here to meet requirements for review:
 
 
-Refer to this link [Netlify Deployed Application](https://main--snazzy-lebkuchen-5f086e.netlify.app/) to view and explore the application and functions on deployed site on Heroku
+Refer to this link [Netlify Deployed Application](https://main--snazzy-lebkuchen-5f086e.netlify.app/) to view and explore the application and functions on deployed site on Netlify
 
 Refer to this link [GitHub Repository](https://github.com/TheKhalidGibson/ReactPortfolio) to view and explore the GitHub repo for this assignment
 
@@ -150,13 +150,13 @@ Refer to this link [GitHub Repository](https://github.com/TheKhalidGibson/ReactP
 The following images reflect the functionality and final results of development for this deployed application:
 
 This is an image showing the About page of my portfolio
-![Image showing the URL where the deployed application can be found](./public/assets/portfolioScreenshot1.png)
+![Image showing the About page of my portfolio](./public/assets/portfolioScreenshot1.png)
 
 This is an image showing the Projects page of my portfolio
-![Image showing the text editor application after deployment](./public/assets/portfolioScreenshot2.png)
+![Image showing the Projects page of my portfolio](./public/assets/portfolioScreenshot2.png)
 
 This is an image showing the Resume page of my portfolio
-![Image showing the URL where the deployed application can be found](./public/assets/portfolioScreenshot3.png)
+![Image showing the Resume page of my portfolio](./public/assets/portfolioScreenshot3.png)
 
 This is an image showing the Contact page of my portfolio
-![Image showing the text editor application after deployment](./public/assets/portfolioScreenshot4.png)
+![Image showing the Contact page of my portfolio](./public/assets/portfolioScreenshot4.png)
