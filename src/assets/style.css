@@ -67,6 +67,15 @@ opacity: 96%;
 
 }
 
+.avatar-greeting{
+	font-family:  'Titan One';
+	color: #E0FBFC;
+	/* background-color: #EE6C4D; */
+	background-color: #293241;
+	width: 75%;
+	
+}
+
 .about-me-header{
   display : flex;
   flex-direction : column;
