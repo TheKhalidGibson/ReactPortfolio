@@ -119,7 +119,7 @@ export default function PersonalProfile() {
                           /> */}
                           <hr className="mt-0 mb-4"/>
                           <MDBTypography tag="h6">
-                          Bringing Projects to Life
+                          Bringing Ideas to Life
                         </MDBTypography>
                           <span className="material-symbols-outlined">
                             planner_review
