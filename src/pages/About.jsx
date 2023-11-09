@@ -51,18 +51,22 @@ export default function PersonalProfile() {
                 <MDBCol md="12">
                   <MDBCardBody className="p-4 card-body-all text-center">
                     <MDBTypography tag="h2">Who Am I?</MDBTypography>
-                    
-                    <hr className="mt-0 mb-4"/>
+
+                    <hr className="mt-0 mb-4" />
                     <MDBRow className="pt-1 text-center pb-5">
                       {/* <MDBCol size="6" className="mb-5 "> */}
-                        <MDBCardText className="">
-                          I'm a Full-Stack Web Developer from the Philadelphia
-                          area. I have a passion for Front-End Design and User
-                          Interface projects. I graduated from the University of
-                          Pennsylvania LPS Coding BootCamp so I am skilled in
-                          both Front and Back-End Technologies
-                        </MDBCardText>
-                          <MDBIcon fas icon="user-graduate" className="about-me-header"/>
+                      <MDBCardText className="">
+                        I'm a Full-Stack Web Developer from the Philadelphia
+                        area. I have a passion for Front-End Design and User
+                        Interface projects. I graduated from the University of
+                        Pennsylvania LPS Coding BootCamp so I am skilled in both
+                        Front and Back-End Technologies
+                      </MDBCardText>
+                      <MDBIcon
+                        fas
+                        icon="user-graduate"
+                        className="about-me-header"
+                      />
                       {/* </MDBCol>                      */}
                     </MDBRow>
 
@@ -70,60 +74,95 @@ export default function PersonalProfile() {
                     <MDBRow className="pt-1">
                       <MDBCol size="6" className="mb-3 text-center">
                         <MDBTypography tag="h4">
-                          My Technological Journey Through Coding
+                          My Essential Focal Points
                         </MDBTypography>
 
                         {/* <MDBCardText className="">My Technological Journey Through Coding</MDBCardText> */}
                         <MDBContainer className="">
-                          
-                          <img
-                            src="./assets/API.jpg"
-                            className="rounded-3"
-                            style={{ width: "85px" }}
-                            alt="Avatar"
-                          />
-                          <hr className="mt-0 mb-4" />
-                          <img
-                            src="./assets/css.jpg"
-                            className="rounded-3"
-                            style={{ width: "85px" }}
-                            alt="Avatar"
-                          />
-                          <hr className="mt-0 mb-4" />
-                          <img
-                            src="./assets/html.jpg"
-                            className="rounded-3"
-                            style={{ width: "85px" }}
-                            alt="Avatar"
-                          />
-                          <hr className="mt-0 mb-4" />
-                          <img
+                        <MDBTypography tag="h6">
+                          Quick Responses
+                        </MDBTypography>
+                          <span className="material-symbols-outlined">
+                            bolt
+                          </span>
+                          {/* <img
                             src="./assets/Js.jpg"
                             className="rounded-3"
                             style={{ width: "85px" }}
                             alt="Avatar"
-                          />
+                          /> */}
+                          <hr className="mt-0 mb-4" />
+                          <MDBTypography tag="h6">
+                          Dynamic Pages
+                        </MDBTypography>
+                          <span className="material-symbols-outlined">
+                            dynamic_feed
+                          </span>
+                          {/* <img
+                            src="./assets/css.jpg"
+                            className="rounded-3"
+                            style={{ width: "85px" }}
+                            alt="Avatar"
+                          /> */}
+                          <hr className="mt-0 mb-4" />
+                          <MDBTypography tag="h6">
+                          Device Friendly
+                        </MDBTypography>
+                          <span className="material-symbols-outlined">
+                            devices
+                          </span>
+                          {/* <img
+                            src="./assets/API.jpg"
+                            className="rounded-3"
+                            style={{ width: "85px" }}
+                            alt="Avatar"
+                          /> */}
+                          <hr className="mt-0 mb-4"/>
+                          <MDBTypography tag="h6">
+                          Bringing Projects to Life
+                        </MDBTypography>
+                          <span className="material-symbols-outlined">
+                            planner_review
+                          </span>
+                          {/* <img
+                            src="./assets/html.jpg"
+                            className="rounded-3"
+                            style={{ width: "85px" }}
+                            alt="Avatar"
+                          /> */}
                         </MDBContainer>
                       </MDBCol>
-                      <MDBCol size="6" className="mb-3  text-center">
+                      <MDBCol size="6" className="mb-3 text-center">
                         <MDBTypography tag="h4">
                           Temperature Check?
                         </MDBTypography>
                         <MDBContainer className="temperature-badge">
-                          <MDBBadge color="warning" pill>
-                            Mild Levels (.. Still .. Marinating)
-                          </MDBBadge>
-                          <hr className="mt-0 mb-4" />
+                        <MDBTypography tag="h6">
+                          Front End Skills
+                        </MDBTypography>
                           <MDBBadge color="danger" pill>
-                           Hot Skillz
+                            🔥🔥Hot Skillz🔥🔥
                           </MDBBadge>
                           <hr className="mt-0 mb-4" />
+                          <MDBTypography tag="h6">
+                          Back End Skills
+                        </MDBTypography>
                           <MDBBadge color="danger" pill>
-                          Hot Skillz
+                            🔥🔥Hot Skillz🔥🔥
                           </MDBBadge>
                           <hr className="mt-0 mb-4" />
+                          <MDBTypography tag="h6">
+                          Debugging and Testing
+                        </MDBTypography>
                           <MDBBadge color="warning" pill>
-                           Medium/Mild Levels (.. Still .. Marinating)
+                            📈 Medium Levels 📈 
+                          </MDBBadge>
+                          <hr className="mt-0 mb-4" />
+                          <MDBTypography tag="h6">
+                          Data Structures and Algorithms
+                        </MDBTypography>
+                          <MDBBadge color="warning" pill>
+                           📖 Mild Levels 📖 (.. learning)
                           </MDBBadge>
                         </MDBContainer>
                       </MDBCol>
@@ -143,28 +182,6 @@ export default function PersonalProfile() {
                   </MDBCardBody>
                 </MDBCol>
               </MDBRow>
-
-              {/* <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src='...' class="d-block w-100" alt="avatar"/>
-    </div>
-    <div class="carousel-item">
-      <img src='...' class="d-block w-100" alt="avatar"/>
-    </div>
-    <div class="carousel-item">
-      <img src='...' class="d-block w-100" alt="avatar"/>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div> */}
             </MDBCard>
           </MDBCol>
         </MDBRow>
