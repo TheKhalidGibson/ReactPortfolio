@@ -140,7 +140,7 @@ I know that "good" design is subjective; however, my objective and intention was
 The following has been placed here to meet requirements for review:
 
 
-Refer to this link [Netlify Deployed Application](: https://khalidgibsonportfolio.netlify.app/) to view and explore the application and functions on deployed site on Netlify
+Refer to this link [Netlify Deployed Application](:https://khalidgibsonportfolio.netlify.app/) to view and explore the application and functions on deployed site on Netlify
 
 Refer to this link [GitHub Repository](https://github.com/TheKhalidGibson/ReactPortfolio) to view and explore the GitHub repo for this assignment
 
