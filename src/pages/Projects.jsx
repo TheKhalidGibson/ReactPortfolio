@@ -56,7 +56,7 @@ export default function Portfolio() {
     {
       title: "Code Quiz",
       description: "Test your knowledge and trivia skills in this fun quiz! See if you can create an unbeatable High Score!",
-      image: "./assets/codeQuiz.png",
+      image: "./assets/codeQuiz3.png",
       repo: "https://github.com/TheKhalidGibson/CodeQuiz",
       deployed: "https://thekhalidgibson.github.io/CodeQuiz/",
     },
