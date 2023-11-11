@@ -14,7 +14,7 @@ export default function Portfolio() {
     {
       title: "Tech Blog",
       description: "Providing Tech Enthusiasts the opportunity to interact and publish concepts, thoughts, and ideas in blog form",
-      image: "./assets/techBlog.png",
+      image: "./assets/techBlog2.png",
       repo: "https://github.com/TheKhalidGibson/TechBlog",
       deployed: "https://tech-blog-kg-3d1231aaaa4b.herokuapp.com/",
     },
@@ -26,23 +26,16 @@ export default function Portfolio() {
       deployed: "https://thekhalidgibson.github.io/WeatherDashboard/",
     },
     {
-      title: "NBA 3v3 Fantasy Basketball",
-      description: "An Engaging Fantasy Basketball League where players can be chosen based on stats and added to your team",
-      image: "./assets/project2Dashboard.png",
-      repo: "https://github.com/TheKhalidGibson/sports-forum",
-      deployed: "https://fantasy-basketball-kg-c8cb3e00148e.herokuapp.com/",
-    },
-    {
       title: "Work Day Scheduler",
       description: "Never miss a beat! Organize your day hour by hour and stay on track with your daily todo list",
-      image: "./assets/workDayScheduler.png",
+      image: "./assets/workDayScheduler2.png",
       repo: "https://github.com/TheKhalidGibson/WorkDayScheduler",
       deployed: "https://thekhalidgibson.github.io/WorkDayScheduler/",
     },
     {
       title: "Note Taker",
       description: "The app to help you remember thoughts and ideas for school projects, work meetings, you name it!",
-      image: "./assets/noteTaker.png",
+      image: "./assets/noteTaker2.png",
       repo: "https://github.com/TheKhalidGibson/NoteTaker",
       deployed: "https://note-taker-kg-95e0f53d1def.herokuapp.com/",
     },
@@ -54,11 +47,18 @@ export default function Portfolio() {
       deployed: "https://book-search-mern-kg-ea68acc05060.herokuapp.com/",
     },
     {
-      title: "Code Quiz",
+      title: "Pokemon Trivia",
       description: "Test your knowledge and trivia skills in this fun quiz! See if you can create an unbeatable High Score!",
-      image: "./assets/codeQuiz3.png",
+      image: "./assets/pokemonTrivia.png",
       repo: "https://github.com/TheKhalidGibson/CodeQuiz",
       deployed: "https://thekhalidgibson.github.io/CodeQuiz/",
+    },
+    {
+      title: "NBA 3v3 Fantasy Basketball",
+      description: "An Engaging Fantasy Basketball League where players can be chosen based on stats and added to your team",
+      image: "./assets/project2Dashboard.png",
+      repo: "https://github.com/TheKhalidGibson/sports-forum",
+      deployed: "https://fantasy-basketball-kg-c8cb3e00148e.herokuapp.com/",
     },
   ];
 
