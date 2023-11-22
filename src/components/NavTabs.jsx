@@ -18,7 +18,7 @@ function NavTabs() {
 
   return (
     <>
-      <nav className="navbar navbar-expand-lg justify-content-center navbar-dark bg-dark text-light px-2">
+      <nav className="navbar navbar-expand-sm justify-content-center navbar-dark bg-dark text-light px-2">
         <div className="container-fluid">
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mx-auto mb-lg-0">
@@ -90,7 +90,7 @@ function NavTabs() {
         </div>
       </nav>
 
-      <nav className="navbar footer fixed-bottom navbar-expand-lg justify-content-end text-center navbar-dark bg-dark text-light">
+      <nav className="navbar footer fixed-bottom navbar-expand-sm justify-content-end text-center navbar-dark bg-dark text-light">
         <div className="pl-5">
 
           <a
@@ -114,6 +114,7 @@ function NavTabs() {
             {/* <FontAwesomeIcon icon="fa-brands fa-github" /> */}
         </div>
       </nav>
+
     </>
   );
 }

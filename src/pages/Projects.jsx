@@ -26,6 +26,13 @@ export default function Portfolio() {
       deployed: "https://thekhalidgibson.github.io/WeatherDashboard/",
     },
     {
+      title: "Pokemon Trivia",
+      description: "Test your knowledge and trivia skills in this fun quiz! See if you can create an unbeatable High Score!",
+      image: "./assets/pokemonTrivia.png",
+      repo: "https://github.com/TheKhalidGibson/CodeQuiz",
+      deployed: "https://thekhalidgibson.github.io/CodeQuiz/",
+    },
+    {
       title: "Work Day Scheduler",
       description: "Never miss a beat! Organize your day hour by hour and stay on track with your daily todo list",
       image: "./assets/workDayScheduler2.png",
@@ -46,20 +53,13 @@ export default function Portfolio() {
       repo: "https://github.com/TheKhalidGibson/BookSearchEngine",
       deployed: "https://book-search-mern-kg-ea68acc05060.herokuapp.com/",
     },
-    {
-      title: "Pokemon Trivia",
-      description: "Test your knowledge and trivia skills in this fun quiz! See if you can create an unbeatable High Score!",
-      image: "./assets/pokemonTrivia.png",
-      repo: "https://github.com/TheKhalidGibson/CodeQuiz",
-      deployed: "https://thekhalidgibson.github.io/CodeQuiz/",
-    },
-    {
-      title: "NBA 3v3 Fantasy Basketball",
-      description: "An Engaging Fantasy Basketball League where players can be chosen based on stats and added to your team",
-      image: "./assets/project2Dashboard.png",
-      repo: "https://github.com/TheKhalidGibson/sports-forum",
-      deployed: "https://fantasy-basketball-kg-c8cb3e00148e.herokuapp.com/",
-    },
+    // {
+    //   title: "NBA 3v3 Fantasy Basketball",
+    //   description: "An Engaging Fantasy Basketball League where players can be chosen based on stats and added to your team",
+    //   image: "./assets/project2Dashboard.png",
+    //   repo: "https://github.com/TheKhalidGibson/sports-forum",
+    //   deployed: "https://fantasy-basketball-kg-c8cb3e00148e.herokuapp.com/",
+    // },
   ];
 
   return (
