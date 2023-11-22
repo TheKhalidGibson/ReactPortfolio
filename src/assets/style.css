@@ -64,8 +64,11 @@ opacity: 96%;
 	font-family:  'Titan One';
 	font-weight: 900;
 	color: #E0FBFC;
+	
 
 }
+
+
 
 .avatar-greeting{
 	font-family:  'Titan One';
@@ -129,7 +132,7 @@ opacity: 96%;
 
 .navbar{
 	height: 100px;
-	/* color: #E0FBFC; */
+	
 }
 
 .footer{
