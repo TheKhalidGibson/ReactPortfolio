@@ -46,63 +46,54 @@ export default function Contact() {
   return (
     <main className="m-0 contact-page">
       <div className="mx-5 pt-5">
-        <p className="text-center fs-2 pb-5 resume-header wrapper">Stay in Touch</p>
-    
+        <p className="text-center fs-2 pb-5 resume-header wrapper">
+          Stay in Touch
+        </p>
+
         <MDBCard
           className="mx-5 px-5 py-5"
           style={{ backgroundColor: "#293241", color: "#E0FBFC" }}
         >
-          <h5>Name:</h5>
+          <div className="row g-2">
+            <h1>Best Ways to Reach Me</h1>
+            <div className="col-md-6 row  px-3 pt-4">
+              <a href="https://www.linkedin.com/in/khalidgibson/">
+                <img
+                  src="../assets/LinkedIn1.png"
+                  className="contact-icons"
+                  alt="..."
+                />
+              </a>
+              <MDBTypography className="contact-icon-labels">LinkedIn</MDBTypography>
 
-          <div className="input-group mb-3">
-            <input
-              type="text"
-              className="form-control"
-              placeholder="Type Name Here"
-              required
-              name="name"
-              value={formData.name}
-              onChange={handleChange}
-            />
+              <a href="https://twitter.com/KhalidGibson">
+                <img
+                  src="../assets/Twitter1.png"
+                  className="contact-icons"
+                  alt="..."
+                />
+              </a>
+
+              <MDBTypography className="contact-icon-labels">Twitter</MDBTypography>
+
+              <a href="https://twitter.com/KhalidGibson">
+                <img
+                  src="../assets/GMail1.png"
+                  className="contact-icons"
+                  alt="..."
+                />
+              </a>
+
+              <MDBTypography className="contact-icon-labels">Email</MDBTypography>
+            </div>
+            <div className="col-md-6 col-sm-12 px-3 pt-4">
+              <img
+                src="../assets/MyAvatar15.png"
+                className="img-thumbnail"
+                alt="..."
+              />
+            </div>
           </div>
-
-          <h5>Email:</h5>
-
-          <div className="input-group mb-3">
-            <input
-              type="email"
-              className="form-control"
-              placeholder="Type Email Here"
-              required
-              name="email"
-              value={formData.email}
-              onChange={handleChange}
-            />
-          </div>
-
-          <h5>Message:</h5>
-
-          <div className="input-group">
-            <textarea
-              className="form-control"
-              placeholder="Type Message Here"
-              required
-              name="message"
-              value={formData.message}
-              onChange={handleChange}
-            ></textarea>
-          </div>
-
-          <button
-            type="submit"
-            className="btn btn-light btn-lg mt-3 contact-submit-btn"
-            onSubmit={handleFormSubmit}
-            disabled={!(formData.name && formData.email && formData.message)}
-
-          >
-            Submit
-          </button>
-          {/* <button className="btn draw-border">Draw Border</button> */}
         </MDBCard>
       </div>
     </main>
