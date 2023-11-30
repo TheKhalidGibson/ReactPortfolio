@@ -19,24 +19,6 @@ export default function Resume() {
     <main className="m-0 contact-page">
       <h1 className="pb-5 pt-3 resume-header text-center">Skills</h1>
       <div className=" pb-5 mx-3 mb-5 pl-5">
-        {/* <ul className="pb-5" >
-        <h5>Coding Experience</h5>
-        <li>Full Stack Web Development</li>
-        <li>JavaScript</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>React</li>
-        <li>MySQL</li><br/>
-
-        <h5>General Skills</h5>
-        <li>Communication</li>
-        <li>Leadership</li>
-        <li>Sales</li>
-        <li>Building Rapport</li>
-        <li>Team Building</li>
-
-      </ul> */}
-
         <MDBCarousel showControls fade >
           <MDBCarouselItem
             className="w-100 d-block carousel-img"
