@@ -229,4 +229,20 @@ ul {
 
 
 
+.contact-icons{
 
+
+	height: 100px;
+	width: 100px;
+	
+
+}
+
+
+.contact-icon-labels{
+
+	font-family:  'Titan One';
+	font-size: larger;
+	padding-left: 20%;
+
+}
