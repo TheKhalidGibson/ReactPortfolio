@@ -76,15 +76,15 @@ export default function Contact() {
 
               <MDBTypography className="contact-icon-labels">Twitter</MDBTypography>
 
-              <a href="https://twitter.com/KhalidGibson">
+              <a href="https://www.facebook.com/khalidmgibson">
                 <img
-                  src="../assets/GMail1.png"
+                  src="../assets/Facebook1.png"
                   className="contact-icons"
                   alt="..."
                 />
               </a>
 
-              <MDBTypography className="contact-icon-labels">Email</MDBTypography>
+              <MDBTypography className="contact-icon-labels">Facebook</MDBTypography>
             </div>
             <div className="col-md-6 col-sm-12 px-3 pt-4">
               <img
