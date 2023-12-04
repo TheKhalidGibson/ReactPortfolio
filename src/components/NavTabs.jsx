@@ -82,9 +82,9 @@ function NavTabs() {
                   Contact Me
                 </Link>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a className="nav-link disabled">Full Stack Developer</a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

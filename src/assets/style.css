@@ -20,8 +20,9 @@ opacity: 96%;
 
 .carousel-img{
 
-	height: 375px;
+	height: 405px;
 	align-items: center;
+	/* justify-content: center; */
 	
 }
 
