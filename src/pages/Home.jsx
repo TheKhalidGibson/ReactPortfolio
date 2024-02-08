@@ -55,7 +55,7 @@ export default function Resume() {
             src="../assets/FullAvatar3.png"
             alt="..."
           >
-            <div><h1 className="avatar-greeting text-center">Come On In</h1></div>
+            <div><h1 className="avatar-greeting text-center">Use the Navbar Above</h1></div>
           </MDBCarouselItem>
 
           <MDBCarouselItem
